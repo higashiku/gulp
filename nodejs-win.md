@@ -27,34 +27,52 @@ nodistのページからインストーラーをダウンロードして、nodis
 - https://github.com/marcelklehr/nodist
 - https://github.com/marcelklehr/nodist/releases （ダウンロードページ）
 
-
-```
 nodist が正常にインストールされているか確認（バージョンを表示してみる）
+```
 > nodist -v
+```
 
 Node.js もインストールされているか確認（バージョンを表示してみる）
+```
 > node -v
+```
 
 インストール済みの Node.js 一覧
+```
 > nodist ls
+> 7.2.1 (global: v7.2.1)
+```
 
 nodist のアップデート
+```
 > nodist update
+```
 
 利用可能な Node.js 一覧
+```
 > nodist dist
+```
 
 任意のバージョンの Node.js をインストール
+```
 > nodist add v6.3.0
 > nodist ls
+> 6.3.0 (global: v6.3.0)
+  7.2.1
+```
 
 利用する Node.js のバージョンを変更
+```
 > nodist use v6.3.0
 > node -v
+v6.3.0
+```
 
 不要なバージョンの Node.js を削除
-> nodist rm v6.3.0
 ```
+> nodist rm v7.2.1
+```
+
 ## 4. nodist をアンインストール
 
 アンインストーラを使い、アンインストール
