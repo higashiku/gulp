@@ -51,6 +51,10 @@ nodist のアップデート
 利用可能な Node.js 一覧
 ```
 > nodist dist
+nodev0.1.14
+nodev0.1.15
+nodev0.1.16
+...（たくさん表示される）
 ```
 
 任意のバージョンの Node.js をインストール
