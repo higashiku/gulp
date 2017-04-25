@@ -1,6 +1,11 @@
 # frontend
 
-## 1. Node.js のインストール
+## Node.js のインストール
 
-- [windows](./nodejs-win.md)
-- [Mac](./nodejs-mac.md)
+- [Windows](./nodejs-win.md)
+- [macOS](./nodejs-mac.md)
+
+## Ruby のインストール（Windowsのみ）
+
+- [Windows](./ruby-win.md)
+
