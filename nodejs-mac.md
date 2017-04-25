@@ -22,7 +22,7 @@
 $ sudo npm uninstall npm -g
 ```
 
-### Node.js をアンインストール
+### Node.js のアンインストール
 
 node_modules がどこにあるか確認
 ```
@@ -64,36 +64,39 @@ $ echo 'export PATH=$HOME/.nodebrew/current/bin:$PATH' >> ~/.bash_profile
 $ source ~/.bash_profile
 ```
 
-nodebrew が正常にインストールされたか確認（バージョンを
-表示
-表示）
-
-
+nodebrew が正常にインストールされたか確認（バージョンを表示）
 ```
 $ nodebrew -v
-$ node -v // -bash: node: command not found
-$ nodebrew install-binary v6.3.0 // nodebrew install v6.3.0 だと遅い
-$ nodebrew use v6.3.0
-$ node -v // v6.3.0
+```
+
+利用可能な Node.js 一覧を確認
+```
+$ nodebrew ls-remote
+v0.0.1    v0.0.2    v0.0.3    v0.0.4    v0.0.5    v0.0.6    
+
+v0.1.0    v0.1.1    v0.1.2    v0.1.3    v0.1.4    v0.1.5    v0.1.6    v0.1.7
+v0.1.8    v0.1.9 ...（たくさん表示される）
+```
+
+任意のバージョンの Node.js をインストール（バイナリでインストールする）
+```
+$ nodebrew install-binary v6.3.0
 ```
 
 インストール済みの Node.js 一覧
 ```
 $ nodebrew ls
+v6.3.0
 ```
 
-利用可能な Node.js 一覧
+使用する Node.js のバージョンを指定する
 ```
-$ nodebrew ls-remote
-```
-
-任意のバージョンの Node.js をインストール
-```
-$ nodebrew install v6.3.0
-$ nodebrew ls
+$ nodebrew use v6.3.0
+$ node -v
+v6.3.0
 ```
 
-利用する Node.js のバージョンを変更
+利用する Node.js のバージョンを指定
 ```
 $ nodebrew use v6.3.0
 $ node -v
