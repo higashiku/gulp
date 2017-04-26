@@ -6,6 +6,9 @@
 - [8.0] (キーボード操作) Windows + X > システム
 - [7.x] windows > コンピュータ > プロパティ
 
+
+![Win10 64bit](img/win-64bit.png)
+
 公式サイトより任意のバージョンをダウンロードしてインストール
 - http://rubyinstaller.org/
 
