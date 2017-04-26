@@ -53,7 +53,9 @@ gulp.task('sass:watch', function () {
 });
 ```
 
-ディレクトリ構成に合わせ、パスを編集します
+### ディレクトリ構成に合わせ、パスを編集します
+
+変更するパスは以下の通り
 
 - './sass/**/*.scss' → './dev/sass/**/*.scss'
 - './css' → './html/css'
@@ -94,6 +96,8 @@ gulp.task('sass:watch', function () {
   gulp.watch('./dev/sass/**/*.scss', ['sass']);
 });
 ```
+
+### 動作確認
 
 gulp sass を実行し、正常に動作することを確認します
 ```
