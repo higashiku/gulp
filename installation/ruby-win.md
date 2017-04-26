@@ -6,7 +6,7 @@
 - [8.0] (キーボード操作) Windows + X > システム
 - [7.x] windows > コンピュータ > プロパティ
 
-![Win10 64bit](img/ruby-win-bit.png)
+![Win10 64bit](../img/ruby-win-bit.png)
 
 公式サイトより任意のバージョンをダウンロードしてインストール
 - http://rubyinstaller.org/
@@ -15,7 +15,7 @@
 ダウンロードしたインストーラを起動して Ruby をインストールします。
 この時、必ず「□ Ruby の実行ファイルへの環境変数パスを設定する」にチェックを入れてください
 
-![Win10 64bit](img/ruby-win-path.png)
+![Win10 64bit](../img/ruby-win-path.png)
 
 Ruby のインストールが完了しているか確認
 ```
