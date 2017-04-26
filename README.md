@@ -16,17 +16,28 @@
 - [Windows](./installation/sass-win.md)
 - [macOS](./installation/sass-mac.md)
 
-### gulp のインストール
+### gulp のインストール（グローバル）
 
 - [Windows](./installation/gulp-win.md)
 - [macOS](./installation/gulp-mac.md)
 
 ## 下準備
 
-### ディレクトリ構成
+### ディレクトリ
 
 - [ディレクトリ構成](./preparation/directory.md)
+
+### パッケージ管理
+
 - [package.json を生成](./preparation/package-json.md)
+
+## gulp 環境の構築
+
+### パッケージのインストール
+
+- [パッケージを探す](./gulp/npm.md)
+- [gulp（ローカル）](./gulp/gulp.md)
+
 
 
 
