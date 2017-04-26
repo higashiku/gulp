@@ -21,22 +21,17 @@
 - [Windows](./installation/gulp-win.md)
 - [macOS](./installation/gulp-mac.md)
 
-## 下準備
+## 導入
 
-### ディレクトリ
+### 下準備
 
 - [ディレクトリ構成](./preparation/directory.md)
-
-### パッケージ管理
-
 - [package.json を生成](./preparation/package-json.md)
-
-## gulp 環境の構築
 
 ### パッケージのインストール
 
-- [パッケージを探す](./gulp/npm.md)
-- [gulp（ローカル）](./gulp/gulp.md)
+- [公式サイトでパッケージを探す](./gulp/npm.md)
+- [ローカルへの gulp インストールと gulpfile.js の作成](./gulp/gulp.md)
 
 
 

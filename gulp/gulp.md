@@ -1,6 +1,6 @@
-# gulp（ローカル）
+# ローカルへの gulp インストールと gulpfile.js の作成
 
-- https://www.npmjs.com/package/gulp-sass/
+- https://www.npmjs.com/package/gulp/
 
 ## インストール
 
@@ -37,4 +37,19 @@ package.json と同じ階層に gulpfile.js を作成します（Windows）
 package.json と同じ階層に gulpfile.js を作成します（macOS）
 ```
 $ touch gulpfile.js
+```
+
+現在のディレクトリ構成は以下のようになりました
+```
+lesson
+   │ 
+   ├ dev
+   │    │
+   │    └ sass
+   │
+   ├ gulpfile.js
+   │ 
+   ├ html
+   │ 
+   └ package.json
 ```

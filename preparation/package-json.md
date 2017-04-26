@@ -56,7 +56,7 @@ Is this ok? (yes)
 > dir
 <DIR>      .
 <DIR>      ..
-<DIR>      develop
+<DIR>      dev
 <DIR>      html
        256 package.json
 ```
@@ -64,22 +64,18 @@ Is this ok? (yes)
 ファイルの一覧で package.json が生成されていることを確認します（macOS）
 ```
 $ ls
-develop       html        package.json
+dev       html        package.json
 ```
 
 現在のディレクトリ構成は以下のようになりました
 ```
 lesson
-   │ ＜開発用ディレクトリ＞
+   │ 
    ├ dev
-   │    │ ＜.sass ディレクトリ＞
-   │    └ sass
-   │       └ style.sass
-   │
-   │ ＜納品ファイル用ディレクトリ＞
-   ├ html
    │    │
-   │    └ index.html
+   │    └ sass
+   │
+   ├ html
    │ 
    └ package.json
 ```

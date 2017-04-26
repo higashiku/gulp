@@ -3,14 +3,13 @@
 ## はじめに
 
 今回は練習用として以下のようなディレクトリ構成で進めます。
-
 ```
 lesson
    │ ＜開発用ディレクトリ＞
    ├ dev
-   │    │ ＜.sass ディレクトリ＞
+   │    │ ＜.scss ディレクトリ＞
    │    └ sass
-   │       └ style.sass
+   │       └ style.scss
    │
    │ ＜納品ファイル用ディレクトリ＞
    ├ html
@@ -64,6 +63,16 @@ $ mkdir lesson/dev/sass
 $ mkdir lesson/html
 ```
 
+現在のディレクトリ構成は以下の通りです
+```
+lesson
+   │ 
+   ├ dev
+   │    │
+   │    └ sass
+   │
+   └ html
+```
 
 
 
