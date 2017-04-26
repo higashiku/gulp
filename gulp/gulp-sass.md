@@ -115,6 +115,9 @@ $ gulp sass:watch
 [12:20:56] Finished 'sass:watch' after 9.85 ms
 ```
 
+[ctrl]+[c] で watch モードを抜けます
+
+
 ### Sass から CSS を生成してみる
 
 dev/sass/style.scss
@@ -200,6 +203,8 @@ MacBook-Pro:sample suekun$ gulp sass:watch
 [12:23:06] Starting 'sass'...
 [12:23:06] Finished 'sass' after 39 ms
 ```
+
+[ctrl]+[c] で watch モードを抜けます
 
 
 
