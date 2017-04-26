@@ -21,3 +21,7 @@
 - [Windows](./installation/gulp-win.md)
 - [macOS](./installation/gulp-mac.md)
 
+## 下準備
+
+### ディレクトリ構成
+
