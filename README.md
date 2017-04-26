@@ -26,5 +26,7 @@
 ### ディレクトリ構成
 
 - [ディレクトリ構成](./preparation/directory.md)
+- [package.json を生成](./preparation/package-json.md)
+
 
 
