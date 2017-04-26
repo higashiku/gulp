@@ -25,3 +25,6 @@
 
 ### ディレクトリ構成
 
+- [ディレクトリ構成](./preparation/directory.md)
+
+
