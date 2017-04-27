@@ -58,9 +58,9 @@ $ cd lesson
 
 作業に使うディレクトリを作成します
 ```
-$ mkdir lesson/dev
-$ mkdir lesson/dev/sass
-$ mkdir lesson/html
+$ mkdir dev
+$ mkdir dev/sass
+$ mkdir html
 ```
 
 現在のディレクトリ構成は以下の通りです
