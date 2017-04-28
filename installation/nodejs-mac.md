@@ -26,7 +26,7 @@ $ npm root -g
 
 下記コマンドの /usr/local/${i} と node_modules の場所 /usr/local/lib/node_modules を見比べます。
 
-もし仮に node_modules の場所が /usr/sbin/local/lib/node_modules である場合、上記コマンドの /usr/local/${i} を /usr/sbin/local/${i} に変更します。
+もし仮に node_modules の場所が /usr/sbin/local/lib/node_modules である場合、下記コマンドの /usr/local/${i} を /usr/sbin/local/${i} に変更します。
 
 ### org.nodejs.node.pkg.bom に記載されているファイルをすべて削除します
 ```
