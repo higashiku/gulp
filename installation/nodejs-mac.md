@@ -16,12 +16,6 @@
 
 ## 2. アンインストール
 
-### npm のアンインストール
-
-```
-$ sudo npm uninstall npm -g
-```
-
 ### Node.js のアンインストール
 
 node_modules がどこにあるか確認
@@ -30,9 +24,19 @@ $ npm root -g
 /usr/local/lib/node_modules
 ```
 
-org.nodejs.node.pkg.bom に記載されているファイルをすべて削除（パスに注意）
+下記コマンドの /usr/local/${i} と node_modules の場所 /usr/local/lib/node_modules を見比べます。
+
+もし仮に node_modules の場所が /usr/sbin/local/lib/node_modules である場合、上記コマンドの /usr/local/${i} を /usr/sbin/local/${i} に変更します。
+
+org.nodejs.node.pkg.bom に記載されているファイルをすべて削除します
 ```
 $ lsbom -f -l -s -pf /var/db/receipts/org.nodejs.node.pkg.bom | while read i; do sudo rm /usr/local/${i}; done
+```
+
+### npm のアンインストール
+
+```
+$ sudo npm uninstall npm -g
 ```
 
 ### その他関連ファイルを削除

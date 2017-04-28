@@ -31,15 +31,14 @@ lesson
 
 デスクトップ上に練習用のディレクトリを作成し、移動します
 ```
-$ cd lesson
-$ mkdir lesson
+> mkdir lesson
+> cd lesson
 ```
 
 作業に使うディレクトリを作成します
 ```
-$ mkdir lesson\dev
-$ mkdir lesson\dev\sass
-$ mkdir lesson\html
+> mkdir dev
+> mkdir dev\sass
 ```
 
 
@@ -60,18 +59,15 @@ $ cd lesson
 ```
 $ mkdir dev
 $ mkdir dev/sass
-$ mkdir html
 ```
 
 現在のディレクトリ構成は以下の通りです
 ```
 lesson
    │ 
-   ├ dev
-   │    │
-   │    └ sass
-   │
-   └ html
+   └ dev
+       │
+       └ sass
 ```
 
 

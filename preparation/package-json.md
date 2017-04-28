@@ -72,10 +72,8 @@ dev       html        package.json
 lesson
    │ 
    ├ dev
-   │    │
-   │    └ sass
-   │
-   ├ html
+   │   │
+   │   └ sass
    │ 
    └ package.json
 ```

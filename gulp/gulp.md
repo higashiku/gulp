@@ -44,12 +44,10 @@ $ touch gulpfile.js
 lesson
    │ 
    ├ dev
-   │    │
-   │    └ sass
+   │   │
+   │   └ sass
    │
    ├ gulpfile.js
-   │ 
-   ├ html
    │ 
    └ package.json
 ```

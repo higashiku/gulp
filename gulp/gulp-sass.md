@@ -57,8 +57,13 @@ gulp.task('sass:watch', function () {
 
 変更するパスは以下の通り
 
-- './sass/**/*.scss' → './dev/sass/**/*.scss'
-- './css' → './html/css'
+```
+// .scss のディレクトリ
+'./sass/**/*.scss' → './dev/sass/**/*.scss'
+
+// .css を書き出すディレクトリ
+'./css' → './html/css'
+```
 
 
 書き換える場所はこの3箇所
@@ -132,10 +137,10 @@ h1 {
 lesson
    │ 
    ├ dev
-   │    │
-   │    └ sass
-   │       │
-   │       └ style.scss
+   │   │
+   │   └ sass
+   │      │
+   │      └ style.scss
    │
    ├ gulpfile.js
    │ 
@@ -157,18 +162,18 @@ $ gulp sass
 lesson
    │ 
    ├ dev
-   │    │
-   │    └ sass
-   │       │
-   │       └ style.scss
+   │   │
+   │   └ sass
+   │      │
+   │      └ style.scss
    │
    ├ gulpfile.js
    │ 
    ├ html
-   │    │
-   │    └ css
-   │       │
-   │       └ style.css
+   │   │
+   │   └ css
+   │      │
+   │      └ style.css
    │ 
    └ package.json
 ```
