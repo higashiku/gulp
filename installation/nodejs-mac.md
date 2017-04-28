@@ -28,7 +28,7 @@ $ npm root -g
 
 もし仮に node_modules の場所が /usr/sbin/local/lib/node_modules である場合、上記コマンドの /usr/local/${i} を /usr/sbin/local/${i} に変更します。
 
-org.nodejs.node.pkg.bom に記載されているファイルをすべて削除します
+### org.nodejs.node.pkg.bom に記載されているファイルをすべて削除します
 ```
 $ lsbom -f -l -s -pf /var/db/receipts/org.nodejs.node.pkg.bom | while read i; do sudo rm /usr/local/${i}; done
 ```
